@@ -45,6 +45,7 @@ struct kvm_config {
 	const char *hugetlbfs_path;
 	const char *custom_rootfs_name;
 	const char *real_cmdline;
+	const char *pstore_path;
 	struct virtio_net_params *net_params;
 	bool single_step;
 	bool vnc;
